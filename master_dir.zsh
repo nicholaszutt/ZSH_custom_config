@@ -1,3 +1,9 @@
+#Author: Asier Galicia
+#GitHub: https://github.com/AsierGali/ZSH_custom_config
+#mail: agalicia1221@gmail.com
+
+# Files on the custom/ directory will be automatically loaded by the init
+# script, in alphabetical order.
 # Commands to open and change directory inside $MASTER directory (master for studies)
 #   - Bypass fuzzy finder if there's only one match (--select-1)
 #   - Exit if there's no match (--exit-0)
@@ -21,13 +27,5 @@ cdm() {
         cd "$directory"
     fi
 }
-# You can put files here to add functionality separated per file, which
-# will be ignored by git.
 # Files on the custom/ directory will be automatically loaded by the init
 # script, in alphabetical order.
-
-# For example: add yourself some shortcuts to projects you often work on.
-#
-# brainstormr=~/Projects/development/planetargon/brainstormr
-# cd $brainstormr
-#
