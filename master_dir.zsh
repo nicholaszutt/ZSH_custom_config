@@ -8,7 +8,6 @@
 #   - Bypass fuzzy finder if there's only one match (--select-1)
 #   - Exit if there's no match (--exit-0)
 
-export MASTER=~/Dropbox/university/master_1
 
 openm() {
     local files
